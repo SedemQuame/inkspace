@@ -22,7 +22,6 @@
       </div>
 
       <div id="gameboard" class="col-12 offset-md-2 col-md-8 offset-lg-3 col-lg-6 gameboard wrapper">
-
       </div>
 
       <div class="col-12 offset-md-2 col-md-8 offset-lg-3 col-lg-6 controls wrapper">
