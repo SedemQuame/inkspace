@@ -33,16 +33,14 @@
   padding: 0;
   width: 100%;
   display: flex;
-  /* border: 1px solid black; */
 }
 
 .cell{
-  /* background-color: #d3d3d3; */
-  /* border-radius: 5px; */
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  border-radius: 0px;
   height: 100%;
   width: 80px;
-  margin: 1px;
+  /* margin: 1px; */
 }
 
 .controls{

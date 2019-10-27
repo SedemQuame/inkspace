@@ -18,7 +18,7 @@
     <div class="row">
       <div class="col-12 offset-md-2 col-md-8 offset-lg-3 col-lg-6 head wrapper">
         <p class="header-text text-center text-uppercase">InkSpace</p>
-        <p class="timer-text text-center">Timer</p>
+        <p id="timer" class="timer-text text-center">00:00:00</p>
       </div>
 
       <div id="gameboard" class="col-12 offset-md-2 col-md-8 offset-lg-3 col-lg-6 gameboard wrapper">
@@ -32,6 +32,7 @@
     <!-- Custom Javascript -->
     <!-- Main.js -->
     <script src="lib/js/main.js" charset="utf-8"></script>
+    <script src="lib/js/timer.js" charset="utf-8"></script>
 
     <!-- Optional Javascript -->
     <!-- Jquery, PopperJs, Bootstrap -->
