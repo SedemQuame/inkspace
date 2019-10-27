@@ -24,6 +24,25 @@
 .gameboard{
   height: 400px;
   width: 400px;
+  padding: 0;
+  border-radius: 0;
+}
+
+.board-game{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  /* border: 1px solid black; */
+}
+
+.cell{
+  background-color: #d3d3d3;
+  /* border-radius: 5px; */
+  border: 1px solid black;
+  height: 100%;
+  width: 80px;
+  margin: 1px;
 }
 
 .controls{
