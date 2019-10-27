@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
+
+.header-text{
+  font-family: 'Modak', cursive;
+  font-size: 45px;
+  margin: 2px;
+}
+
+.timer-text{
+  /* margin: 2px; */
+}
+
+.wrapper{
+  border: 2px solid #dedede;
+  border-radius: 5px;
+}
+
+.head{
+  height: 10%;
+  margin-top: 8%;
+  margin-bottom: 2%;
+}
+
+.gameboard{
+  height: 400px;
+  width: 400px;
+}
+
+.controls{
+  height: 10%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
