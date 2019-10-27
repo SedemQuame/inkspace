@@ -21,11 +21,11 @@
         <p id="timer" class="timer-text text-center">00:00:00</p>
       </div>
 
-      <div id="gameboard" class="col-12 offset-md-2 col-md-8 offset-lg-3 col-lg-6 gameboard wrapper">
+      <div id="gameboard" class="col-12 offset-md-2 col-md-8 offset-lg-3 col-lg-6 board wrapper">
       </div>
 
       <div class="col-12 offset-md-2 col-md-8 offset-lg-3 col-lg-6 controls wrapper">
-        <p>Controls</p>
+        <button class="btn" type="submit" name="button">Quit</button>
       </div>
     </div>
 
