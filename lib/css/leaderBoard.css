@@ -1,0 +1,28 @@
+.leaderBoard {
+    height: 6vh;
+    border-color: 1px solid #dedede;
+    padding: 1%;
+    margin: 2vh 0;
+}
+
+.trinity {
+    height: 30vh;
+    border-color: 1px solid #dedede;
+    margin-bottom: 2vh;
+}
+
+.top10 {
+    height: 7vh;
+    border-color: 1px solid #dedede;
+}
+
+.top10:first-child {
+    margin-top: 5vh;
+}
+
+.positionIcon {
+    height: auto;
+    width: 98%;
+    margin: 1% 0;
+    ;
+}
