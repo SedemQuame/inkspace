@@ -1,60 +1,86 @@
 @import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
-
-.header-text{
-  font-family: 'Modak', cursive;
-  font-size: 45px;
-  margin: 2px;
+.header-text {
+    font-family: 'Modak', cursive;
+    font-size: 45px;
+    margin: 2px;
 }
 
-.timer-text{
-  font-size: 25px;
+.timer-text {
+    font-size: 25px;
 }
+
 
 /* .wrapper{
   border: 2px solid #dedede;
   border-radius: 5px;
 } */
 
-.head{
-  height: 10%;
-  margin-top: 3%;
-  margin-bottom: 2%;
+.head {
+    height: 10%;
+    margin-top: 3%;
+    margin-bottom: 2%;
 }
 
-.gameboard{
-  min-height: 50px;
-  min-width: 50px;
-  padding: 0;
-  border-radius: 0;
-  -moz-box-shadow:    3px 3px 5px 6px #ccc;
-  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-  box-shadow:         3px 3px 5px 6px #ccc;
+.gameboard {
+    min-height: 50px;
+    min-width: 50px;
+    padding: 0;
+    border-radius: 0;
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px #ccc;
 }
+
 
 /*Important */
-.board-game{
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  display: flex;
+
+.board-game {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
 }
 
-.cell{
-  border-radius: 0px;
-  height: 100%;
-  width: 80px;
+.cell {
+    border-radius: 0px;
+    height: 100%;
+    width: 80px;
 }
 
-.controls{
-  height: 10%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+.controls {
+    height: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-.controls .btn{
-  width: 60%;
-  margin: 0 20%;
-  border-radius: 0;
-  background-color: #000000;
-  color: #ffffff;
+.controls .btn {
+    width: 60%;
+    margin: 0 20%;
+    border-radius: 0;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.msgBox {
+    height: 40%;
+    width: 90%;
+    margin: 0 5%;
+    margin-top: 30%;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: none;
+    padding: 5px;
+}
+
+.playagain {
+    width: 50%;
+    margin: 0 25%;
+    border-radius: 0;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.playagain:hover {
+    border-radius: 0;
+    color: #ffffff;
 }

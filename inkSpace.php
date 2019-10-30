@@ -5,24 +5,33 @@
   <title>Inkspace</title>
   </head>
   <body class="container">
+    <audio autoplay loop src="assets/audio/sweeper.wav">
+       Your browser does not support the <code>audio</code> element.
+    </audio>
 
-    <div class="row">
+    <div id="confetti" class="msgBox row">
+      <h1 class="text-center">Congratulations</h1>
+      <p class="text-center">Time</p>
+      <p id="finishingTime" class="text-center"> 00:00:00 </p>
+      <a href="inkSpace.php" class="btn playagain">Play Again</a>
+    </div>
+
+    <div id="inkSpace" class="row">
       <div class="col-12 offset-md-2 col-md-8 offset-lg-3 col-lg-6 head wrapper">
         <p class="header-text text-center text-uppercase">InkSpace</p>
         <p id="timer" class="timer-text text-center">00:00:00</p>
       </div>
 
       <div id="gameboard" class="col-12 offset-md-2 col-md-8 offset-lg-3 col-lg-6 board wrapper"></div>
-      <canvas id="my-canvas"></canvas>
 
       <div class="col-12 offset-md-2 col-md-8 offset-lg-3 col-lg-6 controls wrapper">
-        <button onclick="startConfetti();" class="btn" type="submit" name="button">Finish</button>
+        <button onclick="programFinish();" class="btn" type="submit" name="button">Finish</button>
       </div>
     </div>
 
-
     <!-- Custom Javascript -->
     <!-- Main.js Timer.js-->
+    <script src="lib/js/confetti.js"></script>
     <script src="lib/js/main.js" charset="utf-8"></script>
     <script src="lib/js/timer.js" charset="utf-8"></script>
 

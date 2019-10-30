@@ -16,16 +16,16 @@
 
 
   <div class="row">
-    <form action="" method="post" enctype="" class="col-9 col-md-6 col-lg-3">
+    <form action="php/loginScript.php" method="post" enctype="" class="col-9 col-md-6 col-lg-3">
       <!--This is the login page.-->
       <div>
-          <label for="email_address">Email Address</label>
+          <label for="name">Name</label>
           <br>
-          <input class="form-control" name="email" type="text" id="email_address" placeholder="Email Address" required>
+          <input class="form-control" name="name" type="text" id="name" placeholder="name" required>
       </div>
 
       <div>
-          <label for="user_password">Password</label>
+          <label for="user_password">Passphrase</label>
           <br>
           <input class="form-control" name="password" type="password" id="user_password" placeholder="Password" required>
       </div>

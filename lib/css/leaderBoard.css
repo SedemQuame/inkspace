@@ -1,19 +1,26 @@
 .leaderBoard {
     height: 6vh;
     border-color: 1px solid #dedede;
-    padding: 1%;
-    margin: 2vh 0;
+    /* margin: 2vh 0; */
+}
+
+.leaderBoard h1 {
+    margin-top: 10px;
+    margin-left: 6%;
 }
 
 .trinity {
     height: 30vh;
     border-color: 1px solid #dedede;
-    margin-bottom: 2vh;
+    margin-bottom: 1vh;
+    margin-top: 20px;
 }
 
 .top10 {
     height: 7vh;
     border-color: 1px solid #dedede;
+    margin: 3px;
+    text-align: center;
 }
 
 .top10:first-child {
@@ -25,4 +32,40 @@
     width: 98%;
     margin: 1% 0;
     ;
+}
+
+.runnerUps {
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+}
+
+.topThree {
+    height: 150px;
+    width: 150px;
+    margin-left: 20%;
+}
+
+.numbering {
+    padding-top: 10px;
+    background-color: #d3d3d3;
+    font-size: 18px;
+}
+
+.numbering3 {
+    padding-top: 10px;
+    background-color: #d3d3d3;
+    font-size: 18px;
+    height: 30%;
+    margin-bottom: 3px;
+}
+
+.top3Names {
+    font-size: 21px;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.top3Records {
+    font: 18px;
 }

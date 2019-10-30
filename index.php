@@ -18,15 +18,15 @@
                 <p class="text-center">
                     InkSpace
                 </p>
-                <img src="assets/img/gameIcons/inkspace.png" alt="inkspace game" class="img">
-                <a href="leaderboard.php?game=inkspace" class="btn btn-primary continueBtn">Continue</a>
+                <img src="assets/img/gameIcons/inkspace.PNG" alt="inkspace game" class="img">
+                <a href="leaderboard.php?game=inkSpace" class="btn btn-primary continueBtn">Continue</a>
             </div>
             <div class="col-12 col-md-6 gameChoice">
                 <p class="text-center">
-                    Galaxy Shooter
+                    Space Shooter
                 </p>
                 <img src="assets/img/gameIcons/stargame.gif" alt="star shooting game" class="img">
-                <a href="leaderboard.php?game=stargame" class="btn btn-primary continueBtn">Continue</a>                
+                <a href="leaderboard.php?game=spaceShooter" class="btn btn-primary continueBtn">Continue</a>                
             </div>
         </div>
     </div>
