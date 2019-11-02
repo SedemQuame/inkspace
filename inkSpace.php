@@ -4,7 +4,7 @@
   <?php include_once 'header.php'; ?>
   <title>Inkspace</title>
   </head>
-  <body class="container" onload="audioPlayer()">
+  <body class="container">
     <div id="confetti" class="msgBox row">
       <h1 class="text-center">Congratulations</h1>
       <p class="text-center">Time</p>
@@ -18,10 +18,10 @@
         <p id="timer" class="timer-text text-center">00:00:00</p>
       </div>
 
-      <div id="gameboard" class="col-12 offset-md-2 col-md-8 offset-lg-3 col-lg-6 board wrapper"></div>
+      <div id="gameboard" class="col-12 offset-md-1 col-md-10 offset-md-1 offset-lg-2 col-lg-8 offset-lg-2 board wrapper"></div>
 
-      <div class="col-12 offset-md-2 col-md-8 offset-lg-3 col-lg-6 controls wrapper">
-        <button onclick="checkIfGameComplete();" class="btn" type="submit" name="button">Finish</button>
+      <div class="col-12 offset-md-2 col-md-8 offset-lg-3 col-lg-6 controls">
+        <button onclick="" class="btn" type="submit" name="button">Quit</button>
       </div>
     </div>
 
@@ -31,10 +31,10 @@
     <script src="lib/js/confetti.js"></script>
     <script src="lib/js/main.js" charset="utf-8"></script>
     <script src="lib/js/timer.js" charset="utf-8"></script>
-
+<!-- 
     <audio id="audioObj" loop src="assets/audio/sweeper.mp3">
        Your browser does not support the <code>audio</code> element.
-    </audio>
+    </audio> -->
 
     <!-- Optional Javascript -->
     <!-- Jquery, PopperJs, Bootstrap -->
