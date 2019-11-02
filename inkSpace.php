@@ -16,6 +16,7 @@
       <div class="col-12 offset-md-2 col-md-8 offset-lg-3 col-lg-6 head wrapper">
         <p class="header-text text-center text-uppercase">InkSpace</p>
         <p id="timer" class="timer-text text-center">00:00:00</p>
+        <p id="levelIndicator" class="text-center">Level 0</p>
       </div>
 
       <div id="gameboard" class="col-12 offset-md-1 col-md-10 offset-md-1 offset-lg-2 col-lg-8 offset-lg-2 board wrapper"></div>
